@@ -1,0 +1,58 @@
+.container-discografia {
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+  }
+
+.container-discos {
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    background-color: #CCCCCC;
+    background-image: radial-gradient(circle, rgba(181,181,181,1) 0%, rgba(0,0,0,1) 100%);
+    border: 2px solid black;
+
+    .discos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .disco {
+        width: 300px;
+        margin: 20px;
+        text-align: center;
+        background-color: #CCCCCC;
+        border: 2px solid black;
+
+        img{
+            width: 100%;
+            height: auto;
+          }
+        
+        h3 {
+          font-size: 1.5em;
+          margin-top: 10px;
+        }
+        
+        p {
+          font-size: 1em;
+          margin: 10px;
+        }
+
+        p span {
+          font-weight: bold;
+        }
+
+        a {
+          display: block;
+          margin: 10px;
+          padding: 10px;
+          background-color: #CCCCCC;
+          color: black;
+          text-decoration: none;
+          font-weight: bold;
+        }
+      }
+    }
+  
+}

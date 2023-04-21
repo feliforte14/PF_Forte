@@ -1,0 +1,56 @@
+
+.container-moda {
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.container-pics {
+    display: grid;
+    margin: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+
+    .container-pics-item {
+        background-color: #ddd;
+        padding: 10px;
+        text-align: center;
+        border:2px solid black
+      }
+  }
+
+.container-balenciaga {
+    text-align: center;
+    justify-content: center;
+    background-color: #CCCCCC;
+    padding: 30px;
+    border: 2px solid black;
+    margin: 15px;
+  }
+ 
+.container-yeezy {
+    text-align: center;
+    justify-content: center;
+    background-color: #CCCCCC;
+    padding: 30px;
+    border: 2px solid black;
+    margin: 15px;
+
+    .carousel-control-prev { 
+        border-color: #CCCCCC; 
+        &:hover{
+            background-color: #CCCCCC;
+            border-color: #CCCCCC; 
+        }
+    }
+
+    .carousel-control-next {
+        border-color: #CCCCCC; 
+        &:hover{
+            background-color: #CCCCCC;
+            border-color: #CCCCCC;
+        }
+      }
+
+}
